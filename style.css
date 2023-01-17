@@ -11,7 +11,7 @@ body {
 
 #home {
   background-image: url("assets/svg-bg/subtle-prism.svg");
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,34 +37,90 @@ body {
   font-weight: 400;
 }
 
-.project-btn {
-  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
-  padding: 0 5rem;
-  background-color: #6c757d;
-  width: fit-content;
-  margin: auto;
+.project-btn-link{
+    display: block;
+    background-color: #344e65;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 3rem;
+    width: fit-content;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: #fff !important;
 }
+/* .project-link:focus{
+    text-decoration-color: white;
+} */
+
+.project-btn-link:hover {
+    background-color: #344e65;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(12, 17, 20);
+    transform: translateY(-0.15em);
+}
+
+.about-text {
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    padding: 0 5rem;
+    background-color: #6c757d;
+    width: fit-content;
+    margin: auto;
+    margin-top: -2rem;
+    color: #fff;
+  }
+
+  .sub-head{
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    padding: 0 5rem;
+    background-color: #6c757d;
+    width: fit-content;
+    margin: auto;
+    color: white;
+  }
+
+  .projects{
+    margin-top: 3rem;
+  }
+
+  .project-pics{
+    width: 100%;
+    padding: 0 5rem;
+    height: 60vh;
+  }
+
+/* .project-btns{
+    display: block;
+    background-color: #344e65;
+    padding: 1rem 2rem;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 2rem;
+}
+
+.anchor {
+  text-decoration: none;
+  color: #fff;
+  font-size:x-large;
+
+}
+
+
+
+
+
+
 
 .div{
     width: fit-content;
     margin: auto;
 }
 
-.anchor {
-  text-decoration: none;
-
-}
-
 .anchor div h3 {
-  font-size: 4em;
-  color: white;
-  margin-top: -3rem;
-  width: fit-content;
-}
-
-.div  :hover {
-    transform: translateY(-0.1em);
-}
+    font-size: 4em;
+    color: white;
+    margin-top: -3rem;
+    width: fit-content;
+  } */
 
 .infor-about {
   font-size: 20px;
