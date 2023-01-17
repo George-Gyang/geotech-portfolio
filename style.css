@@ -1,0 +1,95 @@
+body {
+  /* background-color: black; */
+  /* margin: 0; */
+  box-sizing: border-box;
+  position: relative;
+  line-height: 1.5;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#home {
+  background-image: url("assets/svg-bg/subtle-prism.svg");
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+  /*  */
+  /* min-height: 80rem;
+    max-height: 120rem;
+    position: relative; */
+}
+
+.intro-section {
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem 5rem;
+  width: 850px;
+  margin: auto;
+  height: fit-content;
+}
+
+.desc {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.project-btn {
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+  padding: 0 5rem;
+  background-color: #6c757d;
+  width: fit-content;
+  margin: auto;
+}
+
+.div{
+    width: fit-content;
+    margin: auto;
+}
+
+.anchor {
+  text-decoration: none;
+
+}
+
+.anchor div h3 {
+  font-size: 4em;
+  color: white;
+  margin-top: -3rem;
+  width: fit-content;
+}
+
+.div  :hover {
+    transform: translateY(-0.1em);
+}
+
+.infor-about {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.6rem;
+  background: #000;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #fff;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .intro-section {
+    clip-path: none;
+  }
+}
