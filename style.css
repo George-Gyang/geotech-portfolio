@@ -9,6 +9,10 @@ body {
   overflow-y: scroll;
 }
 
+#tech-name{
+    font-weight: 600;
+}
+
 #home {
   background-image: url("assets/svg-bg/subtle-prism.svg");
   height: 100vh;
@@ -150,6 +154,9 @@ body {
     width: 97%;
     padding: 0.5rem;
   }
+.infor-about{
+    padding-left: 1rem;
+}
   .skill{
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -164,4 +171,20 @@ body {
   .projects p{
     padding: 1.5rem!important;
   }
+  #my-name{
+    padding-left: 1rem;
+  }
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+}
+
+#my-name{
+    padding: 2rem;
+    font-weight: 900;
+}
+small{
+    width: fit-content;
 }

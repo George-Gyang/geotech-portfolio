@@ -9,8 +9,11 @@
 
     <!-- Styles -->
     <!-- <link rel="stylesheet" href="bundles/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="bootstrap.min.css">
-
+    <!-- <link rel="stylesheet" href="libraries/aos/aos".css"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="libraries/glightbox/glightbox.min.css">
+    <link rel="stylesheet" href="libraries/bootsrap/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,8 +23,9 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="https://placeholder.pics/svg/150x50/888888/EEE/Logo" alt="..." height="36">
+                <a class="navbar-brand" href="index.html">
+                    <h2 id="tech-name">Geotech</h2>
+                    <!-- <img src="https://placeholder.pics/svg/150x50/888888/EEE/Logo" alt="..." height="36"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -70,7 +74,7 @@
                             Applications that
                             leads to the success of the overall product</p>
                     </div>
-                    <a href="" class="project-btn-link">Projects</a>
+                    <a href="#project" class="project-btn-link">Projects</a>
                 </div>
             </section>
             <div class="div">
@@ -129,7 +133,7 @@
             <section>
                 <div class="container">
                     <h2 class="display-3 sub-head" id="project"> Project</h2>
-                    <p class="text-center pt-5 h5">
+                    <p class="pt-5 h5">
                         Here you will find some of the personal and clients projects that I created with each project
                         containing its own case study
                     </p>
@@ -140,6 +144,7 @@
                         <div class="col-md-6 pt-5 projects">
                             <h3 class="text-center pt-5 h5 project-title">Calculator</h3>
                             <p class="ps-5"> A basic calculator created with react </p>
+                            <a href="https://react-app-calculator.vercel.app/" class="project-btn-link">Projects</a>
                         </div>
                         <div class="col-md-6 projects">
                             <img src="assets/images/randomApi.png" class="project-pics" alt="randomApi pics">
@@ -147,6 +152,8 @@
                         <div class="col-md-6 pt-5 projects">
                             <h3 class="text-center pt-5 h5 project-title">Random User Api</h3>
                             <p class="ps-5"> A web appliction which fetch users and there details randomly</p>
+                            <a href="https://randomuser-assignment.vercel.app/about"
+                                class="project-btn-link">Projects</a>
                         </div>
                         <div class="col-md-6 projects">
                             <img src="assets/images/cart.png" class="project-pics" alt="shopping cart pics">
@@ -155,6 +162,8 @@
                             <h3 class="text-center pt-5 h5 project-title">Shopping Cart</h3>
                             <p class="ps-5">A demo shopping cart that matches product with price and the summ it
                                 up with the grand total</p>
+                            <a href="https://shopping-karts.web.app/" class="project-btn-link">Projects</a>
+
                         </div>
                         <div class="col-md-6 projects"></div>
                         <div class="col-md-6 projects"></div>
@@ -178,17 +187,36 @@
                             <label for="floatingInput">Email address</label>
                         </div>
                         <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
                             <label for="floatingTextarea">Comments</label>
-                          </div>
+                        </div>
                     </div>
                 </div>
             </section>
         </div>
     </main>
+    <footer>
+        <div class="col container">
+            <div class="col-md-6">
+                <h2 id="my-name">Geotech</h2>
+                <p>a Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to
+                    the success of the overall product</p>
+            </div>
+            <div class="col-md-6"></div>
+            <hr>
+            <div class="my-2">
+                <p class="text-center" style="font-size: .900em;">GeoTech development. All rights reserved. </p>
+                <p class="text-center"> &copy; <span id="year" style="font-size: .875em;"></span></p>
+            </div>
+        </div>
+    </footer>
 </body>
 
-<script src="bootstrap.min.js"></script>
+<!-- <script src="libraries/aos/aos.js"></script> -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="libraries/glightbox/glightbox.min.js"></script>
+<script src="libraries/bootsrap/bootstrap.min.js"></script>
 <script src="app.js"></script>
 
 </html>
