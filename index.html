@@ -19,7 +19,9 @@
 
     <script src="libraries/aos/aos.js"></script>
     <script src="https://kit.fontawesome.com/5a651c1d41.js" crossorigin="anonymous"></script>
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -189,19 +191,27 @@
                         possible
                     </p>
                     <div class="contact-infor">
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Name</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Email address</label>
-                        </div>
-                        <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here"
-                                id="floatingTextarea"></textarea>
-                            <label for="floatingTextarea">Comments</label>
-                        </div>
+                        <form action="https://formspree.io/f/moqzkede" method="POST">
+                            <div class="form-floating mb-3">
+                                <input name="name" type="text" class="form-control" id="floatingInput"
+                                    placeholder="name">
+                                <label for="floatingInput">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input name="email" type="email" class="form-control" id="floatingInput"
+                                    placeholder="email">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" name="comments"
+                                    id="floatingTextarea"></textarea>
+                                <label for="floatingTextarea">Comments</label>
+                            </div>
+                            <div class="text-center py-3">
+                                <button class="btn px-5 project-btn-link btn-secondary btn-lg"
+                                    type="submit">Submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -241,8 +251,8 @@ social-icons fa-linkedin fa-lg" aria-hidden="true"></i> -->
                     the success of the overall product</p>
                 <div class="d-flex">
                     <h5>contact me via:</h5>
-                    <a href="tel:+2348100646221" target="_blank"><i
-                            class="fa social-icons fa-mobile fa-3x mx-2" aria-hidden="true"></i></a>
+                    <a href="tel:+2348100646221" target="_blank"><i class="fa social-icons fa-mobile fa-3x mx-2"
+                            aria-hidden="true"></i></a>
 
                     <a href="mailto:georgegyang3@gmail.com" target="_blank"><i
                             class="fa social-icons fa-envelope fa-3x ms-2" aria-hidden="true"></i></a>
