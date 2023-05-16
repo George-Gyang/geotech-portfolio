@@ -23,6 +23,10 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -43,13 +47,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#about">About</a>
+                            <a class="nav-link links fw-bold active" aria-current="page" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#project">Projects</a>
+                            <a class="nav-link links fw-bold active" href="#project">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link links fw-bold active" href="#contact">Contact</a>
                         </li>
                         <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -150,32 +154,69 @@
                         Here you will find some of the personal and clients projects that I created with each project
                         containing its own case study
                     </p>
+
                     <div class="row projects">
                         <div data-aos="fade-up" class="col-md-6 projects">
-                            <img src="assets/images/calculator.png" class="project-pics" alt="calculator pics">
+                            <a href="https://quizzybyte.netlify.app/">
+                                <img src="https://res.cloudinary.com/gyang/image/upload/v1684195197/portfolio/quizapp/Screenshot_139_nqad4u.png"
+                                    class="project-pics" alt="calculator pics">
+                            </a>
+                        </div>
+                        <div data-aos="fade-up" class="col-md-6 pt-5 projects">
+                            <h3 class="text-center pt-5 h5 project-title">Quizzybyte</h3>
+                            <p class="ps-5">Quizzbyte is a quiz app that test your knowledge on key science subjects,
+                                built with Vue Js and bootsrap for styling </p>
+                            <a href="https://github.com/George-Gyang/quiz-zapp" class="project-btn-link">Projects</a>
+                        </div>
+
+                        <div data-aos="fade-up" class="col-md-6 projects">
+                            <a href="https://jotter-pad.netlify.app/">
+                                <img src="https://res.cloudinary.com/gyang/image/upload/v1684195197/portfolio/quizapp/Screenshot_138_cterik.png"
+                                    class="project-pics" alt="calculator pics">
+                            </a>
+                        </div>
+                        <div data-aos="fade-up" class="col-md-6 pt-5 projects">
+                            <h3 class="text-center pt-5 h5 project-title">Jotter Pad</h3>
+                            <p class="ps-5">Jotter Pad is an App that allows you to jot down notes for different subject
+                                matters and other informations. build with Vue Js and bootsrtap</p>
+                            <a href="https://github.com/George-Gyang/notepad" class="project-btn-link">Projects</a>
+                        </div>
+
+                        <div data-aos="fade-up" class="col-md-6 projects">
+                            <a href="https://react-app-calculator.vercel.app/">
+                                <img src="assets/images/calculator.png" class="project-pics" alt="calculator pics">
+                            </a>
                         </div>
                         <div data-aos="fade-up" class="col-md-6 pt-5 projects">
                             <h3 class="text-center pt-5 h5 project-title">Calculator</h3>
                             <p class="ps-5"> A basic calculator created with react </p>
-                            <a href="https://react-app-calculator.vercel.app/" class="project-btn-link">Projects</a>
+                            <a href="https://github.com/George-Gyang/react-App-calculator"
+                                class="project-btn-link">Projects</a>
                         </div>
+
+
                         <div data-aos="fade-up" class="col-md-6 projects">
-                            <img src="assets/images/randomApi.png" class="project-pics" alt="randomApi pics">
+                            <a href="https://randomuser-assignment.vercel.app/about">
+                                <img src="assets/images/randomApi.png" class="project-pics" alt="randomApi pics">
+                            </a>
                         </div>
                         <div data-aos="fade-up" class="col-md-6 pt-5 projects">
                             <h3 class="text-center pt-5 h5 project-title">Random User Api</h3>
                             <p class="ps-5"> A web appliction which fetch users and there details randomly</p>
-                            <a href="https://randomuser-assignment.vercel.app/about"
+                            <a href="https://github.com/George-Gyang/randomuser-Assignment"
                                 class="project-btn-link">Projects</a>
                         </div>
                         <div data-aos="fade-up" class="col-md-6 projects">
-                            <img src="assets/images/cart.png" class="project-pics" alt="shopping cart pics">
+                            <a href="https://shopping-karts.web.app/">
+                                <img src="assets/images/cart.png" class="project-pics" alt="shopping cart pics">
+                            </a>
                         </div>
                         <div data-aos="fade-up" class="col-md-6 pt-5 projects">
                             <h3 class="text-center pt-5 h5 project-title">Shopping Cart</h3>
                             <p class="ps-5">A demo shopping cart that matches product with price and the summ it
                                 up with the grand total</p>
-                            <a href="https://shopping-karts.web.app/" class="project-btn-link">Projects</a>
+                            <a href="https://github.com/George-Gyang/shopping-cart"
+                                class="project-btn-link">Projects</a>
 
                         </div>
                         <div class="col-md-6 projects"></div>
@@ -234,22 +275,12 @@
 
                 <i class="fa social-icons fa- fa-lg" aria-hidden="true"></i>
 
-                <!-- <i class="fa social-icons fa-github fa-lg" aria-hidden="true"></i>
-
-                <i class="fa social-icons fa-twitter fa-lg" aria-hidden="true"></i>
-
-                <i class="fa social-icons fa-instagram fa-lg" aria-hidden="true"></i>
-
-                <i class="fa <a href="https://www.linkedin.com/in/george-gyang-james-/" target="_blank"><i
-                        class="fa social-icons fa-linkedin fa-lg" aria-hidden="true"></i></a>
-social-icons fa-linkedin fa-lg" aria-hidden="true"></i> -->
-
             </div>
             <div class="col-md-6 order-md-1">
                 <h2 id="my-name">Geoteck</h2>
                 <p>a Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to
                     the success of the overall product</p>
-                <div class="d-flex">
+                <div class="d-flex align-items-center">
                     <h5>contact me via:</h5>
                     <a href="tel:+2348100646221" target="_blank"><i class="fa social-icons fa-mobile fa-3x mx-2"
                             aria-hidden="true"></i></a>
@@ -259,13 +290,11 @@ social-icons fa-linkedin fa-lg" aria-hidden="true"></i> -->
 
 
                 </div>
-
-
             </div>
         </div>
         <hr>
         <div class="my-2">
-            <p class="text-center" style="font-size: .900em;">GeoTech development. All rights reserved. </p>
+            <p class="text-center" style="font-size: .900em;">GeoTeck development. All rights reserved. </p>
             <p class="text-center"> &copy; <span id="year" style="font-size: .875em;"></span></p>
         </div>
         </div>
